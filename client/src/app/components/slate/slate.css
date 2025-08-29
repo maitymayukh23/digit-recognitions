@@ -1,0 +1,14 @@
+.slate {
+  display: inline-block;
+  user-select: none;
+}
+.row {
+  display: flex;
+}
+.cell {
+  width: 1vh;
+  height: 1vh;
+  border: 1px solid #222;
+  box-sizing: border-box;
+  cursor: crosshair;
+}

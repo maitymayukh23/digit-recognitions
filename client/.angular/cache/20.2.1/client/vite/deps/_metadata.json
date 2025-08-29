@@ -1,0 +1,34 @@
+{
+  "hash": "15a54627",
+  "configHash": "91d3cd2a",
+  "lockfileHash": "da6ac2e2",
+  "browserHash": "aaf70b7c",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "dc5f6e12",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "be725a1c",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "2e58ac2c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RSNP37DN": {
+      "file": "chunk-RSNP37DN.js"
+    },
+    "chunk-OGEI45PE": {
+      "file": "chunk-OGEI45PE.js"
+    }
+  }
+}

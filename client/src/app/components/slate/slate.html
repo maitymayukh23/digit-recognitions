@@ -1,0 +1,16 @@
+<p>slate works!</p>
+<div class="slate" (mouseup)="onMouseUp()" (mouseleave)="onMouseUp()">
+  @for (row of grid; track $index; let r = $index) {
+  <div class="row">
+    @for (cell of row; track $index; let c = $index) {
+    <div
+      class="cell"
+      [style.backgroundColor]="cell === 255 ? '#fff' : '#000'"
+      (mousedown)="onMouseDown(r, c)"
+      (mouseenter)="onMouseEnter(r, c)"
+    ></div>
+    }
+  </div>
+  }
+</div>
+<button (click)="clearGrid()">Clear</button>
