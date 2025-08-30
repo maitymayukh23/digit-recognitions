@@ -219,6 +219,8 @@ __marimo__/
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
+yarn.lock
 
 # IDEs and editors
 .idea/
@@ -240,6 +242,7 @@ yarn-error.log
 
 # Miscellaneous
 /.angular/cache
+.angular/cache/*
 .sass-cache/
 /connect.lock
 /coverage
