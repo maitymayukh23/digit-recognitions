@@ -2,3 +2,6 @@ kagglehub
 pandas
 numpy
 matplotlib
+fastapi
+uvicorn
+pydantic
